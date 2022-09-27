@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px !important;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
 }
 
 h1,
@@ -50,11 +51,13 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-size: 18px;
 }
 
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-size: 18px;
 }
 
 .homepage-link {
