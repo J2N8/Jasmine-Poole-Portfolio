@@ -1,14 +1,14 @@
 :root {
---first-color: #0881a3; 
---second-color: #fffdfb; 
---third-color: #fde9df; 
---fourth-color: #ffd6a4; 
---box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --first-color: #0881a3;
+  --second-color: #fffdfb;
+  --third-color: #fde9df;
+  --fourth-color: #ffd6a4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px !important;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important;
   background: var(--second-color) !important;
 }
 
@@ -36,6 +36,17 @@ p {
   line-height: 1.5;
 }
 
+.btn-outline {
+  background-color: var(--fourth-color)!important;
+  border: 1px solid var(--fourth-color) !important;
+  border-radius: 4px !important;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  padding: 15px 30px !important;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -50,20 +61,19 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link, .about-link {
+.contact-link,
+.about-link {
   background: var(--fourth-color);
   box-shadow: var(--box-shadow);
   color: black;
   font-size: 20px;
-  font-weight: 700!important;
+  font-weight: 700 !important;
 }
 
 .hero {
   background: #0881a3d6;
   padding-top: 30px;
 }
-
-
 
 .bg-light {
   background-color: #f8f9fa !important;
@@ -75,7 +85,6 @@ p {
   right: 0;
   left: 0;
 }
-
 
 .navbar {
   display: flex;
@@ -91,19 +100,19 @@ p {
   box-shadow: var(--box-shadow);
   color: black;
   font-size: 18px;
-  font-weight: 700!important;
+  font-weight: 700 !important;
 }
 
 .text-center {
   text-align: center !important;
 }
 
-@media (max-width: 576px){
-  h1{
+@media (max-width: 576px) {
+  h1 {
     font-size: 48px;
     line-height: 1.5;
   }
-  h2{
+  h2 {
     font-size: 32px;
     text-align: center;
   }
