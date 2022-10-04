@@ -1,13 +1,17 @@
 :root {
-  --first-color: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  --first-color: #4c701f;
   --second-color: #fffdfb;
-  --fourth-color: rgba(247, 247, 255, 0.212);
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --first-font: "Poppins", sans-serif;
+  --second-font: "Passions Conflict", cursive;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 body {
   margin-top: 50px !important;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important;
+  font-family: var(--first-font) !important;
   background: var(--second-color) !important;
 }
 
@@ -17,111 +21,19 @@ h3 {
   margin: 0;
 }
 
-h1 {
-  font-size: 96px !important;
+footer {
+  margin: 20px 0px;
 }
 
-h2 {
-  font-size: 48px !important;
+.d-flex {
+  display: flex !important;
 }
 
-h3 {
-  font-size: 24px;
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-footer .contact-box {
-  background: var(--first-color);
-  border-radius: 10px;
+.final-note {
   color: black;
-  padding: 30px 120px;
-}
-footer .contact-box p{
-  margin: 0;
-}
-
-footer .email-link {
-  color: black;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-.btn-branding {
-  background-color: var(--fourth-color) !important;
-  border-radius: 4px !important;
-  color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px !important;
-  line-height: 27px !important;
-  padding: 15px 30px !important;
-  box-shadow: var(--box-shadow);
-}
-
-.btn-outline {
-  background-color: var(--fourth-color)!important;
-  border-radius: 4px !important;
-  box-shadow: var(--box-shadow);
-  color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px !important;
-  line-height: 27px !important;
-  margin: 10px;
-  padding: 15px 30px !important;
-}
-
-
-.inquiry {
-  font-size: 40px;
-}
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.nav-myname {
-  margin-right:-50px !important;
-}
-
-.nav-text {
-  padding-left: 140px !important;
-}
-
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link,
-.about-link {
-  background: var(--fourth-color);
-  box-shadow: var(--box-shadow);
-  color: black;
-  font-size: 20px;
-  font-weight: 700 !important;
-}
-
-.main-content{
-  height: 100vh;
-  background: url(../images/main-picture.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  font-size: 16px;
+  line-height: 30px;
   text-align: center;
-  z-index: 100;
-}
-
-.bg-light {
-  background-color: #f8f9fa !important;
 }
 
 .fixed-top {
@@ -131,21 +43,97 @@ footer .email-link {
   left: 0;
 }
 
+.git-link {
+  text-decoration: none !important;
+  color: var(--first-color) !important;
+}
+
+.git-link :hover {
+  text-decoration: underline;
+  color: var(--first-color) !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.main-content .border {
+  border: 4px solid black !important;
+  border-radius: 5px;
+  margin: 170px;
+  padding: 50px 30px !important;
+}
+
+.main-content h1 {
+  text-transform: uppercase;
+  font-size: 125px;
+  font-family: var(--second-font);
+  text-align: center;
+}
+.main-content h4 {
+  font-family: var(--first-font);
+  font-size: 25px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.main-content {
+  height: 100vh;
+  background: url(../images/main-picture.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 150px 20px;
+  border-bottom: 3px solid black;
+}
+
 .navbar {
   display: flex;
   flex-wrap: nowrap;
 }
 
-.primary-link {
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.nav-myname {
+  margin-right: -50px !important;
+  font-size: 50px!important;
+  font-family: var(--second-font) !important;
+}
+
+.nav-text {
+  padding-left: 150px !important;
+  font-family: var(--first-font) !important;
+}
+
+.nav-text :hover {
+  color: var(--first-color) !important;
+}
+
+.navigation-links a {
+  margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--fourth-color);
-  box-shadow: var(--box-shadow);
+}
+
+.social-links a {
+  border: 1px solid black;
+  border-radius: 50%;
   color: black;
-  font-size: 18px;
-  font-weight: 700 !important;
+  font-size: 25px;
+  margin: 10px 30px;
+  padding: 5px 14px;
+}
+
+.social-links :hover {
+  color: black;
+  background: #f0ccda;
 }
 
 .text-center {
@@ -157,29 +145,8 @@ footer .email-link {
     font-size: 48px;
     line-height: 1.5;
   }
-  h2 {
+  h4 {
     font-size: 32px;
     text-align: center;
-  }
-  p {
-    text-align: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .col-sm-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-  .d-md-flex {
-    display: flex!important;
-  }
-  .justify-content-between {
-    justify-content: space-between!important;
-  }
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
   }
 }
