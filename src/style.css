@@ -84,6 +84,15 @@ footer .email-link {
   justify-content: center;
 }
 
+.nav-myname {
+  margin-right:-50px !important;
+}
+
+.nav-text {
+  padding-left: 140px !important;
+}
+
+
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
@@ -168,5 +177,4 @@ footer .email-link {
     text-align: center;
     margin: 0 20px;
   }
-  
 }
