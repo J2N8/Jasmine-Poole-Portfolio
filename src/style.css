@@ -6,7 +6,7 @@
 }
 
 body {
-  margin-top: 100px !important;
+  margin-top: 50px !important;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important;
   background: var(--second-color) !important;
 }
@@ -110,9 +110,14 @@ footer .email-link {
   font-weight: 700 !important;
 }
 
-.hero {
-  background: var(--first-color);
-  padding-top: 30px;
+.main-content{
+  height: 100vh;
+  background: url(../images/main-picture.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  z-index: 100;
 }
 
 .bg-light {
