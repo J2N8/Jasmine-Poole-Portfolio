@@ -25,6 +25,11 @@ footer {
   margin: 20px 0px;
 }
 
+
+.collapse:not(.show) {
+  display: none;
+}
+
 .d-flex {
   display: flex !important;
 }
@@ -60,13 +65,13 @@ footer {
 .main-content .border {
   border: 4px solid black !important;
   border-radius: 5px;
-  margin: 170px;
+  margin: 140px;
   padding: 50px 30px !important;
 }
 
 .main-content h1 {
   text-transform: uppercase;
-  font-size: 125px;
+  font-size: 80px;
   font-family: var(--second-font);
   text-align: center;
 }
@@ -104,12 +109,12 @@ footer {
   border-radius: 5px;
   font-size: 50px !important;
   font-family: var(--second-font) !important;
-  margin-right: -50px !important;
+  margin-right: -35px !important;
   padding: 8px;
 }
 
 .nav-text {
-  padding-left: 200px !important;
+  padding-left: 100px !important;
   font-family: var(--first-font) !important;
 }
 
@@ -142,14 +147,49 @@ footer {
 .text-center {
   text-align: center !important;
 }
+@media screen and (max-width:915px) {
+  .main-content {
+    background: url(../images/mobile-walpaper2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
+  .main-content h1 {
+    font-size: 75px !important;
     line-height: 1.5;
   }
-  h4 {
-    font-size: 32px;
+  .main-content h4 {
+    font-size: 27px !important;
     text-align: center;
+  }
+
+  .main-content .border {
+    border: none!important;
+    scroll-margin-top: auto!important;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav-text {
+    margin-left: -50px;
+  }
+  .main-content {
+    background: url(../images/mobile-walpaper2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-content h1 {
+    font-size: 50px !important;
+    line-height: 1.3;
+  }
+  .main-content h4 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+    .main-content .border {
+    border: none!important;
+    scroll-margin-top: auto!important;
+    margin: auto;
   }
 }
