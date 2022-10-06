@@ -7,6 +7,7 @@
 
 a {
   text-decoration: none !important;
+  color: black!important;
 }
 
 body {
@@ -30,6 +31,18 @@ h1, h2 {
 
 .about-paragraphs {
   font-size: 17px;
+}
+
+.btn{
+  background: #FFFDFB !important;
+  padding: 3px !important;
+  font-size: 18px !important;
+}
+
+
+.btn:hover{
+  background: #F0CCD9 !important;
+  transition: all 200ms ease-in-out;
 }
 .collapse:not(.show) {
   display: none;
@@ -127,4 +140,28 @@ h1, h2 {
 
 .text-center {
   text-align: center !important;
+}
+
+@media screen and (max-width:915px) {
+  .col-lg-4, .col-lg-8 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .headshot {
+    display: block;
+    margin: auto;
+  }
+  .nav-text {
+    margin-left: -50px;
+  }
+  .technologies {
+    padding: 0 20px;
+    font-size: 8px;
+    text-align: center;
+  }
+  .technologies img{
+    margin-bottom: 5px !important;
+    margin-top: 15px;
+    max-width: 120%;
+  }
 }
