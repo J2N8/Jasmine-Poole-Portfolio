@@ -10,21 +10,27 @@ a {
 }
 
 body {
-  margin-top: 50px !important;
+  margin: 0 auto;
   font-family: var(--first-font) !important;
   background: var(--second-color) !important;
 }
 
 footer {
-  background: #FFFDFB;
-  margin: 0 auto;
-  padding-bottom: 20px;
+  background: #FFFDFB !important;
   border-top:3px solid black;
+}
+
+h1, h2 {
+  font-family: 'Comforter Brush', cursive;
+  font-size: 60px !important;
 }
 .about-content{
   margin-top: 140px;
 }
 
+.about-paragraphs {
+  font-size: 17px;
+}
 .collapse:not(.show) {
   display: none;
 }
@@ -61,11 +67,11 @@ footer {
   justify-content: center !important;
 }
 
-.me-image {
+.headshot {
+  border: 6px solid white;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px 1px rgb(141, 138, 138);
-  margin-left: 70px;
-  margin-top: 100px;
+  margin: 0 auto;
+  width: 345px
 }
 
 .navbar {
@@ -121,31 +127,4 @@ footer {
 
 .text-center {
   text-align: center !important;
-}
-@media screen and (max-width:915px) {
-
-}
-@media screen and (max-width: 576px) {
-  .nav-text {
-    margin-left: -50px;
-  }
-  .main-content {
-    background: url(../images/mobile-walpaper2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .main-content h1 {
-    font-size: 50px !important;
-    line-height: 1.3;
-  }
-  .main-content h4 {
-    font-size: 20px !important;
-    text-align: center;
-  }
-
-    .main-content .border {
-    border: none!important;
-    scroll-margin-top: auto!important;
-    margin: auto;
-  }
 }
