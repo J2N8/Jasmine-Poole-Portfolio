@@ -21,18 +21,73 @@ footer {
   border-top:3px solid black;
 }
 
+form {
+  display: block;
+  margin: 30px 20px;
+}
+
 h1 {
   font-family: 'Comforter Brush', cursive;
-  font-size: 60px !important;
+  font-size: 100px !important;
   text-align: center;
+}
+
+h3 {
+  color: var(--first-color);
+  font-size: 48px;
+}
+
+.bg-pink{
+  background: #F9DCDE;
+}
+
+.btn{
+  background: rgb(255, 155, 171) !important;
+  display: inline-block;
+  padding: 15px 30px !important;
+  font-size: 18px !important;
+  margin-top: 15px;
+  text-align: center!important;
+  text-transform: uppercase;
+}
+
+
+.btn:hover{
+  background: #F0CCD9 !important;
+  transition: all 200ms ease-in-out;
 }
 
 .collapse:not(.show) {
   display: none;
 }
 
+
+.contact-section {
+  margin-top:100px;
+  text-align: center;
+}
+
+.contact-section a{
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-section a:hover{
+  color: #000000 !important;
+  opacity: 0.5;
+}
+
 .d-flex {
   display: flex !important;
+}
+.git-link {
+  text-decoration: none !important;
+  color: var(--first-color) !important;
+}
+
+.git-link :hover {
+  text-decoration: underline;
+  color: var(--first-color) !important;
 }
 
 .final-note {
@@ -95,8 +150,8 @@ h1 {
   text-transform: capitalize;
 }
 
-.contact-container{
-  margin-top: 140px;
+.container-fluid{
+  margin-top: 125px;
 }
 
 
