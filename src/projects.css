@@ -21,14 +21,17 @@ footer {
   border-top:3px solid black;
 }
 
+h1 {
+    font-size: 80px !important;
+}
+
 h1, h2 {
-  font-family: 'Comforter Brush', cursive;
-  font-size: 60px !important;
+  font-family: 'Comforter Brush', cursive !important;
   text-align: center;
 }
 
 h2 {
-  font-size: 30px !important;
+  font-size: 40px !important;
 }
 
 .btn{
@@ -62,6 +65,16 @@ h2 {
   top: 0;
   right: 0;
   left: 0;
+}
+
+.git-link {
+  text-decoration: none !important;
+  color: var(--first-color) !important;
+}
+
+.git-link :hover {
+  text-decoration: underline;
+  color: var(--first-color) !important;
 }
 
 .img-fluid {
