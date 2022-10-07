@@ -34,6 +34,7 @@ h2 {
   font-size: 40px !important;
 }
 
+
 .btn{
   background: #FFFDFB !important;
   padding: 3px !important;
@@ -137,6 +138,12 @@ h2 {
   border-radius: 10px;
 }
 
+.pic-container {
+  margin-left: 50px;
+  margin-bottom: 1px;
+  text-align: center!important;
+width: 290px!important;
+}
 
 .social-links a {
   border: 1px solid black;
