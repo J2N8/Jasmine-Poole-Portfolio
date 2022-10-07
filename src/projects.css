@@ -64,16 +64,6 @@ h2 {
   left: 0;
 }
 
-.git-link {
-  text-decoration: none !important;
-  color: var(--first-color) !important;
-}
-
-.git-link :hover {
-  text-decoration: underline;
-  color: var(--first-color) !important;
-}
-
 .img-fluid {
   height: auto;
   max-width: 100%;
