@@ -5,6 +5,11 @@
   --second-font: "Passions Conflict", cursive;
 }
 
+a {
+  text-decoration: none !important;
+  color: black!important;
+}
+
 body {
   margin: 0 auto;
   font-family: var(--first-font) !important;
@@ -24,6 +29,17 @@ h1, h2 {
 
 h2 {
   font-size: 30px !important;
+}
+
+.btn{
+  background: #FFFDFB !important;
+  padding: 3px !important;
+  font-size: 18px !important;
+}
+
+.btn:hover{
+  background: #F0CCD9 !important;
+  transition: all 200ms ease-in-out;
 }
 
 .collapse:not(.show) {
@@ -56,6 +72,11 @@ h2 {
 .git-link :hover {
   text-decoration: underline;
   color: var(--first-color) !important;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
 }
 
 .justify-content-center {
@@ -103,10 +124,16 @@ h2 {
   margin-top: 140px;
 }
 
+.projects-content a:hover {
+  color: #f5c4d6;
+  opacity: 0.6;
+}
+
 .projects-content img{
   border: 3px solid black;
   border-radius: 10px;
 }
+
 
 .social-links a {
   border: 1px solid black;
