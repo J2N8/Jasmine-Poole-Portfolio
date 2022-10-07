@@ -1,0 +1,154 @@
+:root {
+  --first-color: #4c701f;
+  --second-color: #E7E8EA;
+  --first-font: "Poppins", sans-serif;
+  --second-font: "Passions Conflict", cursive;
+}
+
+a {
+  text-decoration: none !important;
+  color: black!important;
+}
+
+body {
+  margin: 0 auto;
+  font-family: var(--first-font) !important;
+  background: var(--second-color) !important;
+}
+
+footer {
+  background: #FFFDFB !important;
+  border-top:3px solid black;
+}
+
+h1, h2 {
+  font-family: 'Comforter Brush', cursive;
+  font-size: 60px !important;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px !important;
+}
+
+.btn{
+  background: #FFFDFB !important;
+  padding: 3px !important;
+  font-size: 18px !important;
+}
+
+.btn:hover{
+  background: #F0CCD9 !important;
+  transition: all 200ms ease-in-out;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.final-note {
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.git-link {
+  text-decoration: none !important;
+  color: var(--first-color) !important;
+}
+
+.git-link :hover {
+  text-decoration: underline;
+  color: var(--first-color) !important;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.nav-myname {
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 50px !important;
+  font-family: var(--second-font) !important;
+  margin-right: -35px !important;
+  padding: 8px;
+}
+
+.nav-text {
+  padding-left: 100px !important;
+  font-family: var(--first-font) !important;
+}
+
+.nav-text :hover {
+  color: var(--first-color) !important;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.projects-content{
+  margin-top: 140px;
+}
+
+.projects-content a:hover {
+  color: #f5c4d6;
+  opacity: 0.6;
+}
+
+.projects-content img{
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+
+.social-links a {
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
+  font-size: 25px;
+  margin: 10px 30px;
+  padding: 5px 14px;
+}
+
+.social-links :hover {
+  color: black;
+  background: #f0ccda;
+}
+
+.text-center {
+  text-align: center !important;
+}
