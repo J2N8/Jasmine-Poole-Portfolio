@@ -172,3 +172,13 @@ h3 {
 .text-center {
   text-align: center !important;
 }
+
+@media screen and (max-width:915px) {
+  .contact-section {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  .nav-text {
+    margin-left: -50px;
+  }
+}
