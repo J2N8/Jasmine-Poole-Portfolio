@@ -44,6 +44,12 @@ h1, h2 {
   background: #F0CCD9 !important;
   transition: all 200ms ease-in-out;
 }
+
+.certificate a:hover {
+  color: #F0CCD9;
+  opacity: 0.5;
+}
+
 .collapse:not(.show) {
   display: none;
 }
