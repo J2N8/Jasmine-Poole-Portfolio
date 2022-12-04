@@ -54,6 +54,10 @@ h2 {
   display: flex !important;
 }
 
+.dict-image img {
+  height: 350px;
+}
+
 .final-note {
   color: black;
   font-size: 16px;
@@ -85,6 +89,11 @@ h2 {
 
 .justify-content-center {
   justify-content: center !important;
+}
+
+.movie-image img{
+  width: 400px;
+  height: 350px;
 }
 
 .navbar {
@@ -138,11 +147,9 @@ h2 {
   border-radius: 10px;
 }
 
-.pic-container {
-  margin-left: 50px;
-  margin-bottom: 1px;
-  text-align: center!important;
-width: 290px!important;
+.port-image img{
+  width: 500px;
+  max-height: 315px;
 }
 
 .social-links a {
