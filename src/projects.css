@@ -118,7 +118,8 @@ h2 {
 
 .nav-text {
   padding-left: 100px !important;
-  font-family: var(--first-font) !important;
+  font-family: 'Comforter Brush', cursive;
+  font-size: larger;
 }
 
 .nav-text :hover {
@@ -169,6 +170,8 @@ h2 {
 .text-center {
   text-align: center !important;
 }
+
+
 
 @media screen and (max-width:915px) {
   .projects-content {

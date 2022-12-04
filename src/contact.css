@@ -135,7 +135,8 @@ h3 {
 
 .nav-text {
   padding-left: 100px !important;
-  font-family: var(--first-font) !important;
+  font-family: 'Comforter Brush', cursive;
+  font-size: larger;
 }
 
 .nav-text :hover {
