@@ -5,6 +5,7 @@
   --second-font: "Passions Conflict", cursive;
 }
 
+
 a {
   text-decoration: none !important;
   color: black!important;
@@ -151,6 +152,7 @@ h1, h2 {
 }
 
 @media screen and (max-width:915px) {
+
   .col-lg-4, .col-lg-8 {
     flex: 0 0 auto;
     width: 50%;
@@ -170,6 +172,18 @@ h1, h2 {
   .technologies img{
     margin-bottom: 5px !important;
     margin-top: 15px;
-    max-width: 120%;
+    max-width: 115%;
+  }
+  
+  .certificate-section h4{
+    margin-bottom: 50px;
+  }
+
+  .certificate-section p {
+    display: none;
+  }
+
+  .certificate-section img{
+    margin-top: 50px;
   }
 }
